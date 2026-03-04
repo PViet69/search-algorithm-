@@ -70,9 +70,3 @@ with streamlit.container():
         streamlit.info("Nhấn nút RUN để bắt đầu thuật toán")
     
     streamlit.markdown('</div>', unsafe_allow_html=True)
-        # with streamlit.expander(f"Đã duyệt qua {len(visited_state)} trạng thái"):
-        #     for i,(viewed_state,f,g,h) in enumerate(visited_state):
-        #         for row in viewed_state:
-        #             matrix = '\n'.join([' '.join([f'{cell:2}' for cell in row]) for row in viewed_state])
-        #             streamlit.write(f"f , g , h")
-                    # streamlit.code(matrix, language=None)
